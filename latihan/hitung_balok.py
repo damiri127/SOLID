@@ -1,6 +1,6 @@
 from balok import Balok
 
-class Balok:
+class HitungBalok:
     
     def hitung_luas(self,balok: Balok):
         return 2 * (balok.get_panjang() + balok.get_lebar() + balok.get_tinggi)
